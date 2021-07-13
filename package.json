@@ -1,0 +1,23 @@
+{
+  "name": "projeto-js-HiringCoders",
+  "version": "1.0.0",
+  "description": "* Crie uma pasta \r * Crie 2 arquivos chamados app.js e database.js\r * Dentro do arquivo database.js crie um array de objetos chamado livros digite o comando modules.exports = livros =>(nome do array de obijetos que criamos)\r ```\r const livros = [\r     {\r         id: 1,\r         nome: \"A Cabana\",\r         autor: \"William P. Young\",\r         categoria: \"Ficção\",\r         paginas: 240,\r         recomenda: true,\r         leu: false\r     },\r         {\r         id: 1,\r         nome: \"A Cabana\",\r         autor: \"William P. Young\",\r         categoria: \"Ficção\",\r         paginas: 240,\r         recomenda: true,\r         leu: false\r     }\r  ] \r ```\r O node js nos possibilia a exportar nossos arquivos js, vamos exportar nosso arquivo js.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanessawin/projeto-js-HiringCoders.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanessawin/projeto-js-HiringCoders/issues"
+  },
+  "homepage": "https://github.com/vanessawin/projeto-js-HiringCoders#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
