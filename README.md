@@ -27,7 +27,7 @@ const livros = [
 ```
 O node js nos possibilia a exportar nossos arquivos js, vamos exportar nosso arquivo js.
 
-* Dentro do  arquivo database.js depois do array de obijetos chamado livro digite os seguintes comandos  
+* Dentro do  arquivo database.js depois do array de objetos chamado livro digite os seguintes comandos   ``` modulo.expres = livros```
 
 ```
 const livros = [
@@ -90,19 +90,25 @@ const livros = [
 module.exports = livros
 ```
 
-* Vamos iniciar um projeto node no terminal: abra o terminal e  vai até a pasta do nosso prejeto chamado projeto-js-HiringCoders e digite o comando npm init -y esse comando cria um packag.json no nosso projeto que vem com algumas informações do nosso projeto
+* Vamos iniciar um projeto node no terminal: abra o terminal e  vai até a pasta do nosso prejeto chamado projeto-js-HiringCoders e digite o comando ``` npm init -y ``` esse comando cria um packag.json no nosso projeto que vem com algumas informações do nosso projeto
 
 ![im](img/img1.png)
 
-*Altere a linha 7 do package.json colocando o start e dentro da string passe o comando node e o nome do arquivo que quero que o node de o start ``` "start": "node app.js ```
+*Altere a linha 7 do package.json colocando o start e dentro da string passe o comando node e o nome do arquivo que quero que o node de o start 
+``` 
+"start": "node app.js 
+```
 
-![site](./img/img2.png)
 
-* No terminal na parta do seu projeto instale uma dependencia/biblioteca utilizando o comando ```npm i readline-sync``` ela permite que receba uma "entrada de pessoas usuarias"
+
+* No terminal na parte do seu projeto instale uma dependencia/biblioteca,  ela permite que receba uma "entrada de pessoas usuarias" digite o comando 
+```
+npm i readline-sync
+```
 
 *lembra do array de objetos que  exportamos quando o nós digitamos o comando module.exports = livros ?
 
-*Agora vamos importar ele dentro do nosso arquivo app.js criando um variavel const livros = e digitando os seguites comandos require('./database) 
+*Agora vamos importar ele dentro do nosso arquivo app.js criando um variavel  livros gi e digitando os seguites comandos
 ``` const livros = require('./databasa) ``` digite ``` console.log(livros) ```eles ja vão estar disponiveis nesse arquivo. Agora vamos no terminal digitar ```nmp start ``` vai aparecer no terminal o nosso array de objetos, isso que dizer que ja pode usar os dados à partir do app.js
 
-<img src = "ima3.png">
+![im](./img/ima3.png)
