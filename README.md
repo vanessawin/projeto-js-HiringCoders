@@ -96,7 +96,7 @@ module.exports = livros
 
 *Altere a linha 7 do package.json colocando o start e dentro da string passe o comando node e o nome do arquivo que quero que o node de o start ``` "start": "node app.js ``
 
-![Screenshot](img2.png)
+![Screenshot](img/img3.png)
 
 * No terminal na parta do seu projeto instale uma dependencia/biblioteca utilizando o comando ```npm i readline-sync`` ela permite que receba uma "entrada de pessoas usuarias"
 
@@ -105,4 +105,5 @@ module.exports = livros
 *Agora vamos importar ele dentro do nosso arquivo app.js criando um variavel const livros = e digitando os seguites comandos require('./database) 
 ``` const livros = require('./databasa) ``` digite ``` console.log(livros) ```eles ja vão estar disponiveis nesse arquivo. Agora vamos no terminal digitar ```nmp start ``` vai aparecer no terminal o nosso array de objetos, isso que dizer que ja pode usar os dados à partir do app.js
 
-<img src = "img3.png"/>
+<img src = 
+img3.png>
