@@ -105,4 +105,4 @@ module.exports = livros
 *Agora vamos importar ele dentro do nosso arquivo app.js criando um variavel const livros = e digitando os seguites comandos require('./database) 
 ``` const livros = require('./databasa) ``` digite ``` console.log(livros) ```eles ja vão estar disponiveis nesse arquivo. Agora vamos no terminal digitar ```nmp start ``` vai aparecer no terminal o nosso array de objetos, isso que dizer que ja pode usar os dados à partir do app.js
 
-<img src = "img3.png"
+<img src = "img3.png"/>
