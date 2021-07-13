@@ -96,7 +96,7 @@ module.exports = livros
 
 *Altere a linha 7 do package.json colocando o start e dentro da string passe o comando node e o nome do arquivo que quero que o node de o start ``` "start": "node app.js ``
 
-![Screenshot](img/img3.png)
+![Screenshot](./img/img3.png)
 
 * No terminal na parta do seu projeto instale uma dependencia/biblioteca utilizando o comando ```npm i readline-sync`` ela permite que receba uma "entrada de pessoas usuarias"
 
