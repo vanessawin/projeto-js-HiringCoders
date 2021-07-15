@@ -98,6 +98,7 @@ module.exports = livros
 ``` 
 "start": "node app.js 
 ```
+![im](img/img2.png)
 
 
 
@@ -108,7 +109,7 @@ npm i readline-sync
 
 * lembra do array de objetos que  exportamos quando o nós digitamos o comando module.exports = livros ?
 
-* Agora vamos importar ele dentro do nosso arquivo app.js criando um variavel  livros gi e digitando os seguites comandos
-``` const livros = require('./databasa) ``` digite ``` console.log(livros) ```eles ja vão estar disponiveis nesse arquivo. Agora vamos no terminal digitar ```nmp start ``` vai aparecer no terminal o nosso array de objetos, isso que dizer que ja pode usar os dados à partir do app.js
+* Agora vamos importar ele dentro do nosso arquivo app.js criando um variavel  livros e digitando os seguites comandos
+``` const livros = require('./database) ``` digite ``` console.log(livros) ```eles ja vão estar disponiveis nesse arquivo. Agora vamos no terminal digitar ```npm start ``` vai aparecer no terminal o nosso array de objetos, isso que dizer que ja pode usar os dados à partir do app.js
 
 ![im](./img/ima3.png)
