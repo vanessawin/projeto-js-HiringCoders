@@ -54,3 +54,5 @@ const livros = [
         leu: true
     }
 ]
+
+module.exports = livros
