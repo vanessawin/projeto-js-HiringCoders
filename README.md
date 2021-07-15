@@ -109,7 +109,8 @@ npm i readline-sync
 
 * lembra do array de objetos que  exportamos quando o nós digitamos o comando module.exports = livros ?
 
-* Agora vamos importar ele dentro do nosso arquivo app.js criando um variavel  livros e digitando os seguites comandos
-``` const livros = require('./database) ``` digite ``` console.log(livros) ```eles ja vão estar disponiveis nesse arquivo. Agora vamos no terminal digitar ```npm start ``` vai aparecer no terminal o nosso array de objetos, isso que dizer que ja pode usar os dados à partir do app.js
+* Agora vamos importar ele dentro do nosso arquivo app.js criando uma variavel  livros e digite os seguites comandos
+``` const livros = require('./database) ``` digite ``` console.log(livros) ```eles ja vão estar disponiveis nesse arquivo. Agora vamos no terminal digitar ```npm start ``` vai aparecer no terminal o nosso array de objetos, isso que dizer que ja pode usar os dados à partir do arquivo app.js
 
 ![im](./img/ima3.png)
+
